@@ -1,0 +1,16 @@
+.next/
+node_modules/
+out/
+.env*
+*.tsbuildinfo
+
+# Large video files — host externally for Vercel deployment
+# Includes all3 stability clips, rotated wobble clips, and WASD clips
+public/media/videos/*.mp4
+public/media/videos/*.mov
+
+# Generated spectrogram PNGs (reproducible via scripts/generate_spectrograms.py)
+public/media/spectrograms/*.png
+
+# Extracted WAV intermediates from spectrogram script
+public/media/audio-source/*_extracted.wav
