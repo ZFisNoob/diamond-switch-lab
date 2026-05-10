@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 const SITE_URL = 'https://diamond-switch-lab.vercel.app/'
-const KOFI_URL = '' // set your Ko-fi URL here to re-enable the button
+const KOFI_URL = 'https://ko-fi.com/zhanfeng'
 
 const REDDIT_SHARE  = `https://www.reddit.com/r/MechanicalKeyboards/submit?url=${encodeURIComponent(SITE_URL)}&title=${encodeURIComponent('Wuque Diamond HE Switch Lab: Cullinan vs Heart of the Ocean vs Poseidon')}`
 const TWITTER_SHARE = `https://twitter.com/intent/tweet?url=${encodeURIComponent(SITE_URL)}&text=${encodeURIComponent('Wuque Diamond HE Switch Lab: Cullinan, Heart of the Ocean, and Poseidon compared through RGB photos, wobble tests, press clips, and WASD sound impressions.')}`
